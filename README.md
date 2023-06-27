@@ -1,1 +1,4 @@
 # dungeon-game
+El código anterior es un generador de mazmorras utilizando el algoritmo de Prim simplificado. Primero, configura el tamaño de las habitaciones y la ventana de visualización de pygame. Luego, crea una clase de habitación con métodos para dibujar, calcular el centro y verificar si se cruzan dos habitaciones. 
+ La función  `generate_rooms`  crea una lista de habitaciones aleatorias sin intersecciones. Después, se conectan las habitaciones utilizando el algoritmo de Prim simplificado, donde se conectan las habitaciones más cercanas entre sí con corredores verdes.
+ Finalmente, se crea un bucle para mantener la ventana abierta y permitir al usuario generar una nueva mazmorra al hacer clic en el botón "Generate Dungeon". Al hacer clic en el botón, se borra la pantalla, se generan y dibujan nuevas habitaciones y se vuelven a conectar utilizando el algoritmo de Prim.
